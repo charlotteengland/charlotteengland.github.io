@@ -1,15 +1,15 @@
 
-##Diet Recipe Search
+### Diet Recipe Search
 
-#This app allows users to search for recipes based on their diets
+This app allows users to search for recipes based on their diets
 
-##App Screenshot
+### App Screenshot
 ![](image.png)
 
-##Technology Used
+*Technology Used
 (HTML/CSS/JavaScript/jQuery)
 
-##DEMO
+### DEMO
 https://charlotteengland.github.io
 
 
