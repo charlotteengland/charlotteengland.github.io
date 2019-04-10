@@ -1,1 +1,51 @@
-hello World
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Recipe Search</title>
+        <meta name="viewport" content="width=device-width">
+        <link href="https://fonts.googleapis.com/css?family=Bitter|Heebo|Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="main.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <main role="main">
+            <header role="banner">
+                <div class="appStart">
+                    <h1>Find great Recipes that suit your Diet</h1>
+                    <p>Search for great recipes from excellent food bloggers by ingredient, based on your dietry requirements.</p>
+                </div>
+            </header>
+            <section>
+                <fieldset>
+                    <form id="js-form">
+                        <label for="search-term">Search term</label>
+                        <input type="text" name="search-term" id="js-search-term" required>
+                        <select class="dietOptions" id="js-diet">
+                            <option value="">Optional select a diet</option>
+                            <option value="balanced">Balanced</option>
+                            <option value="high-protein">High Protein</option>
+                            <option value="high-fiber">High Fiber</option>
+                            <option value="low-fat">Low Fat</option>
+                            <option value="low-carb">Low Crab</option>
+                            <option value="low-sodium">Low Sodium</option>
+                          </select>
+                        <button type="submit" value="Go!">Submit</button>
+                    </form> 
+                </fieldset>
+            </section>
+
+            <div class="header-image">
+                <img src="https://images.unsplash.com/photo-1495546968767-f0573cca821e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80 alt="recipe book"/>
+            </div>
+            <section>
+                <div class="results-list-style hidden" id="results-list">
+            
+                </div>
+   
+            </section>
+
+         
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>

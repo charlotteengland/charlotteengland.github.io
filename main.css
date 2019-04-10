@@ -1,0 +1,99 @@
+
+* {font-family: 'Heebo', sans-serif;
+}
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Bitter', serif; */
+
+
+body {margin-left: 10px;
+      margin-top: 10px;
+}
+
+header {
+    margin-left: 20px;
+}
+
+header img {
+    background-size: cover;
+    margin-top: 5px;
+    width: 100%;
+}
+
+fieldset {
+    border-radius: 12px;
+    border-width: 0.5px;
+    padding: 20px;
+    display: block;
+    margin-left: 15px;
+    margin-right: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.results-list-style {
+    list-style: none;
+    color: slate;
+    background-color: lavender;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    /*border-style: dotted;
+    border-color: plum;*/
+}
+
+#results-list {
+    font-family: 'Bitter', serif; 
+    font-size: 18px;
+}
+
+ .results-list-style li, .results-list-style p {
+    margin-left: 10px;
+
+} 
+
+.results-list-style img {
+    border-radius: 10px;
+    border-width: 0.5px;
+}
+
+.ingredients-title {
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.ingredients-list, .calories, .recipeLink{
+        margin-left: 10px;
+        font-size: 15px;
+    } 
+
+
+a {
+    text-decoration: none;
+    
+}
+
+a:link { color: #c00; transition: all 0.5s linear;
+}
+
+
+a:hover {
+    color: green;
+}
+ 
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width:350px) {
+    .results-list-style img {
+        width: 97%;
+    }  
+}
+
+
+/* add media query for small screens to make results image 96%
+add lavender background color to container 
